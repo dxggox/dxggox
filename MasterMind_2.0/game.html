@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>MasterMind</title>
+</head>
+<body onload="genera()">
+
+
+
+
+    </div>
+
+
+  <center>
+    <div class="tit"><a href="index.html"><img src="img/logo.png" width="320px"></a></div>
+    <div class="ind">
+
+      <table border="0px">
+        <tr>
+        <div class="txttent">Tentativi</div>
+        <div class="txtbs">Balls / Strikes</div>
+          <td><button id="vis1"  class="vis"></button></td>
+          <td><button id="vis2"  class="vis"></button></td>
+          <td><button id="vis3"  class="vis"></button></td>
+          <td></td>
+          <td><button id="ris1" class="vis"></button></td>
+          <td><button id="ris2" class="vis"></button></td>
+          <td><button id="ris3" class="vis"></button></td>
+        </tr>
+        <tr>
+          <td><button id="vis4"  class="vis"></button></td>
+          <td><button id="vis5"  class="vis"></button></td>
+          <td><button id="vis6"  class="vis"></button></td>
+          <td></td>
+          <td><button id="ris4" class="vis"></button></td>
+          <td><button id="ris5"  class="vis"></button></td>
+          <td><button id="ris6"  class="vis"></button></td>
+        </tr>
+        <tr>
+          <td><button id="vis7"  class="vis"></button></td>
+          <td><button id="vis8"  class="vis"></button></td>
+          <td><button id="vis9"  class="vis"></button></td>
+          <td></td>
+          <td><button id="ris7"  class="vis"></button></td>
+          <td><button id="ris8"  class="vis"></button></td>
+          <td><button id="ris9"  class="vis"></button></td>
+        </tr>
+        <tr>
+        
+        <tr>
+          <td><button id="vis10"  class="vis"></button></td>
+          <td><button id="vis11"  class="vis"></button></td>
+          <td><button id="vis12"  class="vis"></button></td>
+          <td></td>
+          <td><button id="ris10"  class="vis"></button></td>
+          <td><button id="ris11"  class="vis"></button></td>
+          <td><button id="ris12"  class="vis"></button></td>
+        </tr>
+        <tr>
+          <td><button id="vis13"  class="vis"></button></td>
+          <td><button id="vis14"  class="vis"></button></td>
+          <td><button id="vis15" class="vis"></button></td>
+          <td></td>
+          <td><button id="ris13"  class="vis"></button></td>
+          <td><button id="ris14"  class="vis"></button></td>
+          <td><button id="ris15"  class="vis"></button></td>
+        </tr>
+        
+      </table>
+  
+      <hr width="180px" color="white">
+
+      <table border="0px">
+        <tr>
+          <td><button id="tent1"  onclick="color_sel(this.id)"></button></td>
+          <td><button id="tent2"  onclick="color_sel(this.id)"></button></td>
+          <td><button id="tent3"  onclick="color_sel(this.id)"></button></td>
+          
+          <td><button class="go" onclick="go()">✓</button></td>
+          <td><button class="clean" onclick="clean()">↩</button></td>
+        </tr>
+      
+    </div>
+    <div class="colors">
+            <table border="0px">
+          <tr>
+            <td><button id="green" class="colors" onclick="color(this.id)" ></button></td>
+            <td><button id="red" class="colors" onclick="color(this.id)"></button></td>
+            <td><button id="blue" class="colors" onclick="color(this.id)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="yellow" class="colors" onclick="color(this.id)"></button></td>
+            <td><button id="orange" class="colors" onclick="color(this.id)"></button></td>
+            <td><button id="purple" class="colors" onclick="color(this.id)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="pink" class="colors" onclick="color(this.id)"></button></td>
+            <td><button id="cyan" class="colors" onclick="color(this.id)"></button></td>
+            <td><button id="brown" class="colors" onclick="color(this.id)"></button></td>
+          </tr>
+          </table>
+            </div>
+
+            <p id="Errori" class="sot"></p> <p id="numtent" class="sot">Numero tentativi: 5</p>
+
+          </center>
+</body>
+</html>
+
+
